@@ -11,11 +11,11 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/gorilla/mux"
 	"github.com/app/api/auth"
 	"github.com/app/api/models"
 	"github.com/app/api/responses"
 	"github.com/app/api/utils/formaterror"
+	"github.com/gorilla/mux"
 )
 
 func (server *Server) CreatePost(w http.ResponseWriter, r *http.Request) {
